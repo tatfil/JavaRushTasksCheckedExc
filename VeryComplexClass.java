@@ -25,14 +25,14 @@ public class VeryComplexClass {
         }
         catch (IOException e){
             e.printStackTrace();
-            System.out.println("ioexception");
+            System.out.println("IOException");
 
         }
         catch(Exception e ){
-            System.out.println("exception");
+            System.out.println("Exception");
         }
         finally{
-            System.out.println("finally");
+            System.out.println("Finally");
         }
 
 
